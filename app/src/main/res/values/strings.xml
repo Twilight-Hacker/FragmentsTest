@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FragmentsTest</string>
+    <string name="title_activity_loader">Loader</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Title">Dogs Catalogue</string>
+
+    <string name="breed">Breed</string>
+    <string name="ShowImage">Show Image</string>
+    <string name="length">Length</string>
+    <string name="size">Size</string>
+    <string name="colour">Colour</string>
+    <string name="height">Height</string>
+    <string name="food">Favorite Food</string>
+    <string name="served">Food Packaging</string>
+    <string name="catImage">Dog Image</string>
+    <string name="exit">Exit</string>
+    <string name="NotConnected">Not connected: Retrieveing test data</string>
+    <string name="Connected">Connected: Retrieving real data</string>
+    <string name="done">Done</string>
+    <string name="catcolor">Colour of this breed</string>
+    <string name="title_activity_details">Dog Details</string>
+</resources>

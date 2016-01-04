@@ -1,0 +1,142 @@
+{
+  "dogs": [
+    {
+      "breed": "spotted dog",
+      "length": 4,
+      "image": {
+        "xxhdpi": "spotted_dog",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "meat",
+      "colour": "#55gg00",
+      "size": "medium",
+      "height": 12
+    },
+    {
+      "breed": "bordeaux",
+      "length": 4,
+      "image": {
+        "xxhdpi": "bordeaux",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "meat",
+      "colour": "#bb00hh",
+      "size": "small",
+      "height": 24
+    },
+    {
+      "breed": "boxer",
+      "length": 4,
+      "image": {
+        "xxhdpi": "boxer",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "meat",
+      "colour": "#225533",
+      "size": "tiny",
+      "height": 128
+    },
+    {
+      "breed": "furry",
+      "length": 4,
+      "image": {
+        "xxhdpi": "furry",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "dog food",
+      "colour": "#222222",
+      "size": "large",
+      "height": 1024
+    },
+    {
+      "breed": "street dog",
+      "length": 4,
+      "image": {
+        "xxhdpi": "street",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "chicken teriyaki",
+      "colour": "#11bbee",
+      "size": "extra-large",
+      "height": 500
+    },
+    {
+      "breed": "german altassian",
+      "length": 4.5,
+      "image": {
+        "xxhdpi": "german_altassian",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "dog food",
+      "colour": "#4a6e8c",
+      "size": "gigantic",
+      "height": 1
+    },
+    {
+      "breed": "shorty",
+      "length": 1,
+      "image": {
+        "xxhdpi": "shorty",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "bones",
+      "colour": "#123456",
+      "size": "smurf-size",
+      "height": 0
+    },
+    {
+      "breed": "Schnoodle",
+      "length": 8,
+      "image": {
+        "xxhdpi": "Schnoodle",
+        "xhdpi": "",
+        "hdpi": "",
+        "mdpi": "",
+        "ldpi": ""
+      },
+      "prefered-food": "dog food",
+      "colour": "#654321",
+      "size": "really-large",
+      "height": -10
+    }
+  ],
+  "food": [
+    {
+      "name": "meat",
+      "package": "kilos"
+    },
+    {
+      "name": "bones",
+      "package": "ground"
+    },
+    {
+      "name": "chicken teriyaki",
+      "package": "plate"
+    },
+    {
+      "name": "dog food",
+      "package": "pack"
+    }
+  ]
+}

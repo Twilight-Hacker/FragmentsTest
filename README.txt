@@ -1,0 +1,1 @@
+This is a project to test and practice Fragments, HTTPAsyncTasks, and JSON Parsing. Created based on a recomended task of a tutorial. JSON File contains random (but homogenus) data, and the images all come from the public domain.

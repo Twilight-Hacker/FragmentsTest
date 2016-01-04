@@ -1,0 +1,236 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/black"
+    android:id="@+id/DetailsView"
+    tools:context="task.example.galadar.fragmentTest.MainActivityFragment">
+
+    <LinearLayout
+        android:id="@+id/ImageLay"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:id="@+id/imageView"
+            android:src="@drawable/notfound"
+            android:layout_gravity="center"
+            android:contentDescription="@string/catImage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/ImageLay"
+        android:weightSum="1.0"
+        android:id="@+id/breedCont">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/breed"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/breed"
+            android:id="@+id/breedDt"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/breedCont"
+        android:weightSum="1.0"
+        android:background="@color/black"
+        android:id="@+id/colourCont">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/colour"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:id="@+id/colourDt"
+            android:textColor="@color/white"
+            android:contentDescription="@string/catcolor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/colourCont"
+        android:weightSum="1.0"
+        android:id="@+id/SizeCont">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/size"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/size"
+            android:id="@+id/sizeDt"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/SizeCont"
+        android:weightSum="1.0"
+        android:id="@+id/lengthCont">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/length"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/length"
+            android:id="@+id/lengthDt"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lengthCont"
+        android:weightSum="1.0"
+        android:id="@+id/heightCont">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/height"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/height"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:id="@+id/heightDt"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/heightCont"
+        android:weightSum="1.0"
+        android:id="@+id/FoodCont">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/food"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/food"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:id="@+id/foodDt"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ServedCont"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0"
+        android:layout_below="@id/FoodCont">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/served"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:text="@string/served"
+            android:id="@+id/servedDt"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
